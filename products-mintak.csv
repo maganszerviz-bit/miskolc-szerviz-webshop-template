@@ -1,0 +1,11 @@
+﻿name;sku;regular_price;description;stock;categories;images
+Kingston A400 480GB SSD;KNG-SSD-480;14990;Gyors és megbízható SSD SATA 3 interfésszel.;25;Új alkatrészek;https://images.kingston.com/ssd/kingston-a400-480gb.jpg
+Corsair Vengeance LPX 16GB DDR4;COR-RAM-16GB;24990;Nagy teljesítményű DDR4 memória 3200MHz.;15;Új alkatrészek;https://www.corsair.com/medias/vengeance-lpx-16gb.jpg
+Intel Core i5-10400F CPU;INT-CPU-I510400F;44990;6 mag, 12 szál, 4.3GHz Turbo Boost.;10;Új alkatrészek;https://www.intel.com/core-i5.jpg
+MSI GeForce GTX 1660 Super 6GB;MSI-GPU-1660S;89990;Gamer videokártya, 6GB GDDR6.;8;Új alkatrészek;https://asset.msi.com/gtx-1660-super.jpg
+ASUS Prime B460M-A alaplap;ASUS-MB-B460M;32990;Micro-ATX alaplap Intel CPU-hoz.;12;Új alkatrészek;https://dlcdnets.asus.com/prime-b460m.jpg
+Dell Latitude E7470 Használt Laptop;DELL-LAP-7470;59990;Felújított üzleti laptop, 14'', 8GB RAM, 256GB SSD.;5;Használt alkatrészek;https://i.dell.com/latitude-e7470.jpg
+HP ProBook 650 G2 Használt Laptop;HP-LAP-650G2;54990;Felújított laptop 15.6'', i5 CPU, 8GB RAM.;6;Használt alkatrészek;https://ssl-product-images.hp.com/probook-650g2.jpg
+Logitech G203 Lightsync Egér;LOGI-MOU-G203;7990;RGB világítás, 8000 DPI.;30;Kiegészítők;https://resource.logitech.com/g203-lightsync.jpg
+AOC 24B1XHS 24'' IPS Monitor;AOC-MON-24B1;39990;Full HD IPS, vékony káva, HDMI.;14;Kiegészítők;https://aoc.com/24b1xhs-monitor.jpg
+TP-Link Archer C6 Wi-Fi Router;TP-WIFI-C6;11990;AC1200 Dual Band gigabit router.;20;Kiegészítők;https://static.tp-link.com/archer-c6.jpg

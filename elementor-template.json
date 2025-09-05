@@ -1,0 +1,200 @@
+{
+  "version": "0.4",
+  "title": "Miskolc Szerviz – Főoldal Sablon",
+  "type": "page",
+  "content": [
+    {
+      "id": "hero-section",
+      "elType": "section",
+      "settings": {
+        "structure": "20",
+        "background_background": "classic",
+        "background_color": "#0f172a",
+        "padding": { "top": "120", "bottom": "120" }
+      },
+      "elements": [
+        {
+          "id": "hero-column",
+          "elType": "column",
+          "elements": [
+            {
+              "id": "hero-heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Laptop és Számítógép Szerviz – Miskolc",
+                "header_size": "h1",
+                "align": "center",
+                "title_color": "#ffffff"
+              }
+            },
+            {
+              "id": "hero-subheading",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Országos számítógép és laptop alkatrész webáruház + helyi szervizszolgáltatás Miskolcon."
+              }
+            },
+            {
+              "id": "hero-button",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Tekintsd meg webshopunkat",
+                "link": { "url": "/shop" },
+                "size": "lg",
+                "button_type": "primary"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "services-section",
+      "elType": "section",
+      "settings": {
+        "structure": "33",
+        "background_background": "classic",
+        "background_color": "#f8fafc",
+        "padding": { "top": "80", "bottom": "80" }
+      },
+      "elements": [
+        {
+          "id": "services-title",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Szolgáltatásaink",
+            "header_size": "h2",
+            "align": "center"
+          }
+        },
+        {
+          "id": "services-columns",
+          "elType": "columns",
+          "elements": [
+            {
+              "id": "service-1",
+              "elType": "column",
+              "elements": [
+                {
+                  "id": "icon-1",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "title": "Laptop szerviz",
+                    "description": "Gyors javítás, alkatrészcserék és hibadiagnosztika."
+                  }
+                }
+              ]
+            },
+            {
+              "id": "service-2",
+              "elType": "column",
+              "elements": [
+                {
+                  "id": "icon-2",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "title": "Asztali PC szerviz",
+                    "description": "Tisztítás, bővítés, hardvercsere és szoftveres karbantartás."
+                  }
+                }
+              ]
+            },
+            {
+              "id": "service-3",
+              "elType": "column",
+              "elements": [
+                {
+                  "id": "icon-3",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "title": "Adatmentés & vírusirtás",
+                    "description": "Adatmentés sérült eszközökről és teljes körű vírusirtás."
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "products-section",
+      "elType": "section",
+      "settings": {
+        "structure": "20",
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "padding": { "top": "80", "bottom": "80" }
+      },
+      "elements": [
+        {
+          "id": "products-heading",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Kiemelt termékeink",
+            "header_size": "h2",
+            "align": "center"
+          }
+        },
+        {
+          "id": "woocommerce-products",
+          "elType": "widget",
+          "widgetType": "woocommerce-products",
+          "settings": {
+            "columns": "4",
+            "rows": "1",
+            "orderby": "date",
+            "order": "desc"
+          }
+        }
+      ]
+    },
+    {
+      "id": "contact-section",
+      "elType": "section",
+      "settings": {
+        "structure": "20",
+        "background_background": "classic",
+        "background_color": "#f8fafc",
+        "padding": { "top": "80", "bottom": "80" }
+      },
+      "elements": [
+        {
+          "id": "contact-heading",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Kapcsolat",
+            "header_size": "h2",
+            "align": "center"
+          }
+        },
+        {
+          "id": "contact-map",
+          "elType": "widget",
+          "widgetType": "google_maps",
+          "settings": {
+            "address": "Miskolc, Magyarország",
+            "zoom": "14"
+          }
+        },
+        {
+          "id": "contact-form",
+          "elType": "widget",
+          "widgetType": "shortcode",
+          "settings": {
+            "shortcode": "[wpforms id='123']"
+          }
+        }
+      ]
+    }
+  ]
+}
